@@ -3,6 +3,14 @@
 <head>
 	<title>Responsive_menu</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="jquery-3.4.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.toggle span').click(function(){
+				$('ul').toggleClass('active')
+			})
+		})
+	</script>
 </head>
 <body>
 	<!-- Responsive_navigation_menu start -->
